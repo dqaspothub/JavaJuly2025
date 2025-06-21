@@ -1,4 +1,4 @@
-package org.java.variable;
+package com.java.variables;
 
 public class Calculator {
 

@@ -1,4 +1,4 @@
-package org.java.variable;
+package com.java.variables;
 
 public class Student {
     // Instance variables (global to class)

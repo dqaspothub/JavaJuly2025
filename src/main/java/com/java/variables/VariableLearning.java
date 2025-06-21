@@ -1,6 +1,4 @@
-package org.java.variable;
-
-import java.sql.SQLOutput;
+package com.java.variables;
 
 public class VariableLearning {
 

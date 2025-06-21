@@ -1,4 +1,4 @@
-package org.java.variable;
+package com.java.variables;
 
 public class VariableDemo {
 
@@ -13,9 +13,11 @@ public class VariableDemo {
         System.out.println("Duration: " + duration + " days");
     }
 
+
     public static void main(String[] args) {
         VariableDemo obj = new VariableDemo();
         obj.printDetails();
+
     }
 }
 
