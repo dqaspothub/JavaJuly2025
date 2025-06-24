@@ -2,8 +2,6 @@ package com.java.variables;
 
 public class VarDemo {
 
-
-
     public static void main(String[] args) {
 
         var name = "Raj"; // Inferred as String

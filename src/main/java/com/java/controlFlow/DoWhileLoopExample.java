@@ -1,25 +1,28 @@
 package com.java.controlFlow;
 
-public class DoWhileLoopExample {
+public class DoWhileLoopExample1 {
 
 	public static void main(String[] args) {
 
+		int tries = 1;
 
-		int timer = 5;
+		boolean wantToPlayAgain = false;
 
-		while (timer >= 0) {
-			System.out.println("Brushing... Seconds left: " + timer);
-			timer--;
-		}
+		do {
+		    System.out.println("Playing the game. Try #" + tries);
+		    tries++;
+		} while (wantToPlayAgain);
+
 
 	}
 }
+
 /*
 
-int chocolates = 0;
+int chocolates = 5;
 
-do {
+while (chocolates > 0) {
 		System.out.println("Rahul eats a chocolate 🍫");
 chocolates--;
-		} while (chocolates > 0);
+		}
 */

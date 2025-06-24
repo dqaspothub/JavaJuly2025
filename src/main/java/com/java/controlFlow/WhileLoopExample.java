@@ -4,25 +4,22 @@ public class WhileLoopExample {
 
 	public static void main(String[] args) {
 
-		int tries = 1;
 
-		boolean wantToPlayAgain = false;
+		int timer = 5;
 
-		do {
-		    System.out.println("Playing the game. Try #" + tries);
-		    tries++;
-		} while (wantToPlayAgain);
-
+		while (timer >= 0) {
+			System.out.println("Brushing... Seconds left: " + timer);
+			timer--;
+		}
 
 	}
 }
-
 /*
 
-int chocolates = 5;
+int chocolates = 0;
 
-while (chocolates > 0) {
+do {
 		System.out.println("Rahul eats a chocolate 🍫");
 chocolates--;
-		}
+		} while (chocolates > 0);
 */
