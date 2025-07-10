@@ -6,7 +6,7 @@ public class NarrowingExample {
 		
 		float price = 99.99f;
 		
-		double roundedPrice = (double) price; // double to float
+		double roundedPrice = (double) price; // float to double
 		
 		System.out.println("Rounded price: " + roundedPrice);
 

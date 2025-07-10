@@ -13,8 +13,9 @@ public class SwitchExample {
 		    case 2:
 		        System.out.println("Tuesday");
 				break;
-		    default:
+			default:
 		        System.out.println("Another day");
+
 		}
 
 	}

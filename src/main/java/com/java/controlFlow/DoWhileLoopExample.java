@@ -1,6 +1,6 @@
 package com.java.controlFlow;
 
-public class DoWhileLoopExample1 {
+public class DoWhileLoopExample {
 
 	public static void main(String[] args) {
 
